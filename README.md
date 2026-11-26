@@ -30,7 +30,7 @@ The system includes four different machine learning models:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/cybersecurity-intrusion-detection.git
+   git clone https://github.com/ARWA044/cybersecurity-intrusion-detection.git
    cd cybersecurity-intrusion-detection
    ```
 
@@ -132,7 +132,7 @@ The system can be configured through the Streamlit interface:
 The system provides comprehensive evaluation metrics:
 
 - **Accuracy**: Overall correctness of predictions
-- **Precision**: True positive rate
+- **Precision**: Fraction of predicted attacks that are actual attacks
 - **Recall**: Sensitivity to attacks
 - **F1-Score**: Harmonic mean of precision and recall
 - **ROC-AUC**: Area under the ROC curve
@@ -159,7 +159,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need help with the project, please:
 
-1. Check the [Issues](https://github.com/yourusername/cybersecurity-intrusion-detection/issues) page
+1. Check the [Issues](https://github.com/ARWA044/cybersecurity-intrusion-detection/issues) page
 2. Create a new issue if your problem isn't already addressed
 3. Contact the maintainers
 
@@ -175,3 +175,7 @@ If you have any questions or need help with the project, please:
 ---
 
 **Built with ❤️ for cybersecurity professionals**
+
+## Current limitations
+
+The dataset is not included in the repository, and the dashboard's current dataset path needs correction before a clean installation can run. Obtain the dataset lawfully and verify its schema. This is an academic prototype, not a validated production IDS.
